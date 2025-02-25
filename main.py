@@ -12,7 +12,7 @@ from pdf2image import convert_from_path
 import io
 
 if len(sys.argv) < 3:
-    print("Usage: python3 generate_jpg.py <pptx_storage_key> <minio_data_json> ")
+    print("Usage: python3 main.py <pptx_storage_key> <minio_data_json> ")
     sys.exit(1)
 
 key = sys.argv[1]
